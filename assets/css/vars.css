@@ -1,0 +1,21 @@
+:root {
+    /* FONT */
+    --font-family: "Montserrat", sans-serif;
+
+    /* COLORS */
+    --text-gray: #8D8C91;
+    --border-gray: #F0F0F3;
+    --text-purple: #5D17AD;
+    --text-white: #FFFFFF;
+    --bg-black: #000000;
+    --text-blue: #2678FA;
+    --text-light-blue: #27E0FC;
+    --box-shadow: rgba(0, 0, 0, 0.2);
+    --linear-gradient: linear-gradient(
+        45deg,
+        rgba(90, 115, 241, 1) 35%,
+        rgba(36, 223, 254, 1) 100%);
+
+    /* DIMENSION */
+    --medium-spacing: 4rem;
+}
