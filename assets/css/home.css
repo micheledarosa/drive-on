@@ -1,0 +1,54 @@
+/* SECTION HOME */
+
+.home {
+  display: flex;
+  width: 100%;
+}
+
+.home__informations {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin: 6rem;
+}
+
+.home__informations h1 {
+  font-size: 4.5rem;
+  font-weight: 650;
+  color: var(--text-purple);
+}
+
+.home__informations p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  max-width: 32rem;
+}
+
+.home__informations button {
+  border: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-white);
+  background: var(--linear-gradient);
+  padding: 0.75rem 1.75rem;
+  width: 12.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.home__informations button:hover {
+  transform: translateY(-0.1875rem);
+  box-shadow: 0 0.625rem 1.25rem var(--box-shadow);
+}
+
+.home__image {
+  margin-left: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* SECTION HOME END */

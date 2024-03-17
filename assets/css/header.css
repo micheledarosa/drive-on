@@ -37,6 +37,10 @@ html {
   gap: var(--medium-spacing);
 }
 
+.header__menu ul li {
+  transition: color .5s ease;
+}
+
 .header__menu ul li:hover {
   color: var(--text-purple);
 }

@@ -12,9 +12,11 @@
 }
 
 .footer__bg {
+  background-color: var(--bg-purple);
   position: absolute;
   bottom: 0;
   width: 100%;
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -45,6 +47,13 @@
   align-items: center;
   gap: .5rem;
   cursor: pointer;
+  transition: color .5s ease;
+}
+
+.footer__informations-menu ul li a:hover,
+.footer__company nav ul li a:hover 
+{
+  color: var(--text-light-blue);
 }
 
 .footer__company {
@@ -64,6 +73,10 @@
   gap: 1.5rem;
   margin-top: 2.5rem;
   cursor: pointer;
+}
+
+.footer__company nav ul li a {
+  transition: color .5s ease;
 }
 
 .footer hr {
